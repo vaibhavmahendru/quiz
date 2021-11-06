@@ -83,3 +83,26 @@ input{
 .scorearea{
     display : none;
 }
+@media only screen and (max-width: 600px){
+    .inner-div h2{
+        font-size: 2.2rem;
+        font-weight: 350;
+        margin: 1rem 0 3rem 0;
+    }
+
+    .inner-div li{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        list-style: none;
+    
+    
+    }
+
+    .inner-div{
+        width: 65vw;
+        background-color: #faffd1;
+        padding: 3rem 8rem;
+        border-radius: 1rem;
+        box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0 ,0.4);
+    }
+}
