@@ -105,4 +105,25 @@ input{
         border-radius: 1rem;
         box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0 ,0.4);
     }
+    .scorearea{
+        width: 60%;
+        display: none;
+    }
+
+    #submit, .btn{
+        padding: 1rem 2rem;
+        outline: none;
+        font-size: 1.1rem;
+        font-weight: 200;
+        display: block;
+        margin: auto;
+        border: none;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #47aeb5;
+        margin-top: 3rem;
+        place-items: center;
+        border-radius: 7%;
+        cursor: pointer;
+    }
 }
